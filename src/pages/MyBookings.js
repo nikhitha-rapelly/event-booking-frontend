@@ -13,7 +13,7 @@ const MyBookings = () => {
       }
     };
     fetchBookings();
-  }, []);
+  }, [user]);
 
   return (
     <div>
